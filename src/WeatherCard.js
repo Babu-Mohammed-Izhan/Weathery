@@ -1,5 +1,5 @@
 import React from 'react'
-import { Card, CardContent, makeStyles } from '@material-ui/core'
+import { Card, CardContent, makeStyles, Typography } from '@material-ui/core'
 
 
 const useStyles = makeStyles({
@@ -16,7 +16,9 @@ const WeatherCard = ({ data }) => {
     return (
         <Card className={classes.root}>
             <CardContent>
-                <h1>{data.name}</h1>
+                <Typography variant="h3" component="h2" gutterBottom>
+                    Weathery
+            </Typography>
                 <h3>{data.main.temp}&deg;</h3>
                 <h3>{data.weather[0].main}</h3>
                 <h3><img src={`http://openweathermap.org/img/wn/${data.weather[0].icon}@2x.png`} alt={data.weather[0].main} /></h3>
