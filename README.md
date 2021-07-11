@@ -1,3 +1,12 @@
+#Weathery
+This is a weather web app created using react.
+
+#Link of the website
+
+https://quizzical-swanson-0cf2d5.netlify.app/
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
