@@ -1,7 +1,7 @@
-#Weathery
+# Weathery
 This is a weather web app created using react.
 
-#Link of the website
+# Link of the website
 
 https://quizzical-swanson-0cf2d5.netlify.app/
 
