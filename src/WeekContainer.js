@@ -18,7 +18,8 @@ const useStyles = makeStyles({
         margin: "10px"
     },
     title: {
-        margin: "20px"
+        margin: "20px",
+        fontWeight: "bold"
     }
 });
 
